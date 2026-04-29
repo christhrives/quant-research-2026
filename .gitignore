@@ -1,9 +1,14 @@
-# Data files (大文件不上传)
+# Data files (太大不上传)
 data/
-*.csv
 *.parquet
 *.h5
 *.pkl
+
+# CSV in data folder only
+data/*.csv
+
+# But allow CSV in reports/
+!reports/*.csv
 
 # Python
 __pycache__/
@@ -26,11 +31,8 @@ env/
 .DS_Store
 Thumbs.db
 
-# Secrets (永远别 commit credentials)
+# Secrets
 *.env
 config.ini
 credentials.json
 *.key
-
-# Jupyter checkpoints
-.ipynb_checkpoints/
