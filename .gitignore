@@ -1,0 +1,36 @@
+# Data files (大文件不上传)
+data/
+*.csv
+*.parquet
+*.h5
+*.pkl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (永远别 commit credentials)
+*.env
+config.ini
+credentials.json
+*.key
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
