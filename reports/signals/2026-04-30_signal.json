@@ -1,0 +1,22 @@
+{
+  "signal_date": "2026-04-30",
+  "generated_at": "2026-04-29T23:00:00",
+  "strategy": "12-month momentum, top 5, equal-weight, monthly rebalance",
+  "lookback_months": 12,
+  "skip_months": 1,
+  "n_holdings": 5,
+  "rebalance_freq": "monthly",
+  "direction": "long-only",
+  "holding_period": "May 2026 (2026-05-01 to 2026-05-29)",
+  "positions": {
+    "CAT": 0.2,
+    "AVGO": 0.2,
+    "GOOGL": 0.2,
+    "NVDA": 0.2,
+    "GS": 0.2
+  },
+  "based_on_data": "2020-01-01 to 2026-04-29",
+  "universe_size": 31,
+  "expected_outcome": "Unknown - to be verified end of May 2026",
+  "validation_planned": "Around 2026-05-29 (full month) and 2026-05-10 (partial)"
+}

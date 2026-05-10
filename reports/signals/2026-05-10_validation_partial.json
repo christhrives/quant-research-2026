@@ -1,0 +1,25 @@
+{
+  "validation_date": "2026-05-10",
+  "signal_date": "2026-04-30",
+  "validation_period": "2026-04-25 to 2026-05-08",
+  "trading_days": 7,
+  "individual_returns": {
+    "CAT": 0.008246171821460304,
+    "AVGO": 0.030112833289413776,
+    "GOOGL": 0.041580041580041575,
+    "NVDA": 0.07831838452673245,
+    "GS": 0.013758836073914543
+  },
+  "portfolio_return": 0.034403253458312535,
+  "spy_return": 0.026382433974341188,
+  "outperformance": 0.008020819483971348,
+  "interpretation": {
+    "direction": "All 5 holdings positive",
+    "outperformed_spy": true,
+    "alpha_bp": 80.2,
+    "concern_1": "Sample too small (7 days)",
+    "concern_2": "NVDA contributed 47% of total return",
+    "concern_3": "Market was rising overall"
+  },
+  "next_validation": "Full month-end check around 2026-05-29"
+}
