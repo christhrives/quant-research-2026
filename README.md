@@ -6,7 +6,7 @@ Personal journey building quantitative trading strategies and preparing for MFE 
 
 Started: April 28, 2026  
 Current week: Week 1  
-Target: MFE Fall 2027 admission + live trading track record
+Target: MFE Preparation + live trading track record
 
 ## Repository Structure
 
