@@ -1,0 +1,52 @@
+{
+  "backtest_date": "2026-05-17",
+  "strategy_name": "12-Month Momentum, Top 5, Equal-Weight",
+  "parameters": {
+    "lookback_months": 12,
+    "skip_months": 1,
+    "n_holdings": 5,
+    "rebalance_freq": "monthly",
+    "commission": 0.001,
+    "slippage": 0.0005,
+    "initial_capital": 100000
+  },
+  "period": {
+    "start": "2020-02-29",
+    "end": "2026-04-30",
+    "months": 75
+  },
+  "metrics": {
+    "strategy": {
+      "annual_return": 0.22689034686279808,
+      "annual_vol": 0.2199039586118824,
+      "sharpe": 0.8498725900275792,
+      "sortino": 1.507233035299092,
+      "max_drawdown": -0.1495421654147637,
+      "calmar": 1.5172332581483277,
+      "win_rate": 0.5135135135135135,
+      "months": 75.0
+    },
+    "spy_benchmark": {
+      "annual_return": 0.1779183654851808,
+      "annual_vol": 0.18432921536986682,
+      "sharpe": 0.7482176127557421,
+      "sortino": 1.1736497877943737,
+      "max_drawdown": -0.25398133011021556,
+      "calmar": 0.700517496337124,
+      "win_rate": 0.6621621621621622,
+      "months": 75.0
+    }
+  },
+  "transaction_costs": {
+    "total_cost_usd": 10071.733810496055,
+    "pct_of_initial_capital": 0.10071733810496054,
+    "n_rebalances": 62
+  },
+  "key_findings": [
+    "Strategy outperformed SPY by 4.90% annualized",
+    "Sharpe Ratio: 0.85 vs SPY 0.75",
+    "Max Drawdown: -15.0% vs SPY -25.4%",
+    "Calmar Ratio 1.52 (2.2x better than SPY)",
+    "Direction: alpha is real after costs, but in-sample only"
+  ]
+}
